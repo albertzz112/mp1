@@ -74,11 +74,11 @@ nav li{
 }
 
 main p{
-    font-size: calc(2px + 1.2vw);
+    font-size: calc(2px + 1.3vw);
 }
 
 main li{
-    font-size: calc(2px + 1.2vw);
+    font-size: calc(2px + 1.3vw);
 }
 
 #main-title{
