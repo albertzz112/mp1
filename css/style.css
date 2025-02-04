@@ -66,19 +66,19 @@ main{
 }
 
 nav ul{
-    font-size: calc(1px + 1vw);
+    font-size: calc(1.5px + 1vw);
 }
 
 nav li{
-    font-size: calc(1px + 1vw);
+    font-size: calc(1.5px + 1vw);
 }
 
 main p{
-    font-size: calc(1px + 1vw);
+    font-size: calc(2px + 1vw);
 }
 
 main li{
-    font-size: calc(1px + 1vw);
+    font-size: calc(1.5px + 1vw);
 }
 
 #main-title{
@@ -86,11 +86,11 @@ main li{
 }
 
 h4{
-    font-size: calc(1.5px + 1.5vw);
+    font-size: calc(2px + 1.5vw);
 }
 
 input, button {
-    font-size: calc(1px + 1vw);
+    font-size: calc(1.5px + 1vw);
 }
 
 #output {
@@ -98,9 +98,9 @@ input, button {
 }
 
 label {
-    font-size: calc(1px + 1vw);
+    font-size: calc(1.5px + 1vw);
 }
 
 footer {
-    font-size: calc(1px + 1vw);
+    font-size: calc(1.5px + 1vw);
 }
