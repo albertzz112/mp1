@@ -44,12 +44,20 @@ function division() {
     }
 }
 
-function power() {
-    let first=Number(document.getElementById("first").value);
-    let second=Number(document.getElementById("second").value);
-    let result=1;
-    for(let i=0;i<second;i++){
-        result=first*result;
+let first = Number(document.getElementById("first").value);
+    let second = Number(document.getElementById("second").value);
+    let result = 1;
+
+    if (second < 0) {
+        second = -second;
+        for (let i = 0; i < second; i++) {
+            result = first * result;
+        }
+        result = 1 / result;
+    } else {
+        for (let i = 0; i < second; i++) {
+            result = first * result;
+        }
     }
 
     if (result < 0) {
