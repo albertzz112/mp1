@@ -44,7 +44,8 @@ function division() {
     }
 }
 
-let first = Number(document.getElementById("first").value);
+function myPow() {
+    let first = Number(document.getElementById("first").value);
     let second = Number(document.getElementById("second").value);
     let result = 1;
 
@@ -54,7 +55,11 @@ let first = Number(document.getElementById("first").value);
             result = first * result;
         }
         result = 1 / result;
-    } else {
+    } 
+    else if (second===0) {
+     result = 1;
+    }
+    else {
         for (let i = 0; i < second; i++) {
             result = first * result;
         }
