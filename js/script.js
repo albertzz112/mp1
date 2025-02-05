@@ -44,7 +44,7 @@ function division() {
     }
 }
 
-function myPow() {
+function power() {
     let first = Number(document.getElementById("first").value);
     let second = Number(document.getElementById("second").value);
     let result = 1;
